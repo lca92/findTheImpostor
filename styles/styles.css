@@ -20,9 +20,9 @@ main {
   flex-direction: row;
   justify-content: center;
   width: 30rem;
-  border-radius: 60px;
-  background: #fffcf4;
-  box-shadow: 10px 10px 24px #d1cfc8, -10px -10px 24px #ffffff;
+  border-radius: 3.75rem;
+  box-shadow: 0.625rem 0.625rem 1.5625rem #d1cfc8,
+    -0.625rem -0.625rem 1.5625rem #ffffff;
 }
 
 /* Text */
@@ -191,4 +191,52 @@ a {
 
 .purple:hover {
   background-color: #1a0e2d;
+}
+
+@media only screen and (max-width: 430px) {
+  h1 {
+    margin: 2rem 0 0 0;
+  }
+
+  p {
+    margin: 1rem 0 2rem 0;
+  }
+
+  #container {
+    max-width: 21rem;
+  }
+
+  .red {
+    height: 3.5rem;
+    max-width: 3.5rem;
+  }
+
+  .orange {
+    height: 3.5rem;
+    max-width: 3.5rem;
+  }
+
+  .yellow {
+    height: 3.5rem;
+    max-width: 3.5rem;
+  }
+
+  .green {
+    height: 3.5rem;
+    max-width: 3.5rem;
+  }
+
+  .blue {
+    height: 3.5rem;
+    max-width: 3.5rem;
+  }
+
+  .purple {
+    height: 3.5rem;
+    max-width: 3.5rem;
+  }
+
+  footer {
+    padding: 1.5rem 0 1rem 0;
+  }
 }
