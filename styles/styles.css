@@ -12,8 +12,17 @@ body {
 
 main {
   display: flex;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 30rem;
+  border-radius: 60px;
+  background: #fffcf4;
+  box-shadow: 10px 10px 24px #d1cfc8, -10px -10px 24px #ffffff;
 }
 
 /* Text */
