@@ -42,6 +42,24 @@ a {
   color: #665118;
 }
 
+/* Round corners */
+
+#a1 {
+  border-top-left-radius: 50%;
+}
+
+#a6 {
+  border-bottom-left-radius: 50%;
+}
+
+#f1 {
+  border-top-right-radius: 50%;
+}
+
+#f6 {
+  border-bottom-right-radius: 50%;
+}
+
 /* Column A - Red */
 
 #columna {
@@ -55,6 +73,7 @@ a {
   background-color: #e40303;
   transition-property: background-color;
   transition-duration: 0.5s;
+  transition-timing-function: ease-in;
 }
 
 .red:hover {
@@ -74,6 +93,7 @@ a {
   background-color: #ff8c00;
   transition-property: background-color;
   transition-duration: 0.5s;
+  transition-timing-function: ease-in;
 }
 
 .orange:hover {
@@ -93,6 +113,7 @@ a {
   background-color: #ffed00;
   transition-property: background-color;
   transition-duration: 0.5s;
+  transition-timing-function: ease-in;
 }
 
 .yellow:hover {
@@ -112,6 +133,7 @@ a {
   background-color: #008026;
   transition-property: background-color;
   transition-duration: 0.5s;
+  transition-timing-function: ease-in;
 }
 
 .green:hover {
@@ -135,6 +157,7 @@ a {
   background-color: #24408e;
   transition-property: background-color;
   transition-duration: 0.5s;
+  transition-timing-function: ease-in;
 }
 
 .blue:hover {
@@ -154,6 +177,7 @@ a {
   background-color: #732982;
   transition-property: background-color;
   transition-duration: 0.5s;
+  transition-timing-function: ease-in;
 }
 
 .purple:hover {
