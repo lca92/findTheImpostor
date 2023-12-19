@@ -49,40 +49,16 @@ a {
   flex-direction: column;
 }
 
-#a1 {
+.red {
   height: 5rem;
   width: 5rem;
   background-color: #e40303;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
-#a2 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #e40303;
-}
-
-#a3 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #e40303;
-}
-
-#a4 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #e40303;
-}
-
-#a5 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #e40303;
-}
-
-#a6 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #e40303;
+.red:hover {
+  background-color: #44110a;
 }
 
 /* Column B - Orange */
@@ -92,40 +68,16 @@ a {
   flex-direction: column;
 }
 
-#b1 {
+.orange {
   height: 5rem;
   width: 5rem;
   background-color: #ff8c00;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
-#b2 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #ff8c00;
-}
-
-#b3 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #ff8c00;
-}
-
-#b4 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #ff8c00;
-}
-
-#b5 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #ff8c00;
-}
-
-#b6 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #ff8c00;
+.orange:hover {
+  background-color: #462206;
 }
 
 /* Column C - Yellow */
@@ -135,40 +87,16 @@ a {
   flex-direction: column;
 }
 
-#c1 {
+.yellow {
   height: 5rem;
   width: 5rem;
   background-color: #ffed00;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
-#c2 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #ffed00;
-}
-
-#c3 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #ffed00;
-}
-
-#c4 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #ffed00;
-}
-
-#c5 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #ffed00;
-}
-
-#c6 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #ffed00;
+.yellow:hover {
+  background-color: #453a02;
 }
 
 /* Column D - Green */
@@ -178,40 +106,16 @@ a {
   flex-direction: column;
 }
 
-#d1 {
+.green {
   height: 5rem;
   width: 5rem;
   background-color: #008026;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
-#d2 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #008026;
-}
-
-#d3 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #008026;
-}
-
-#d4 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #008026;
-}
-
-#d5 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #008026;
-}
-
-#d6 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #008026;
+.green:hover {
+  background-color: #072818;
 }
 
 /* Column E - Blue */
@@ -221,40 +125,16 @@ a {
   flex-direction: column;
 }
 
-#e1 {
+.blue {
   height: 5rem;
   width: 5rem;
   background-color: #24408e;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
-#e2 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #24408e;
-}
-
-#e3 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #24408e;
-}
-
-#e4 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #24408e;
-}
-
-#e5 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #24408e;
-}
-
-#e6 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #24408e;
+.blue:hover {
+  background-color: #101e33;
 }
 
 /* Column F - Purple */
@@ -264,38 +144,14 @@ a {
   flex-direction: column;
 }
 
-#f1 {
+.purple {
   height: 5rem;
   width: 5rem;
   background-color: #732982;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 
-#f2 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #732982;
-}
-
-#f3 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #732982;
-}
-
-#f4 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #732982;
-}
-
-#f5 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #732982;
-}
-
-#f6 {
-  height: 5rem;
-  width: 5rem;
-  background-color: #732982;
+.purple:hover {
+  background-color: #1a0e2d;
 }
